@@ -5,3 +5,13 @@ Convert Currencies in One Click
 Install requirements from command 'pip install -r requirements.txt'
 And Enjoy Using it.
 
+# Major Currencies Include
+        "USD",
+        "GBP",
+        "INR",
+        "EUR",
+        "CAD",
+        "HDK",
+        'SGD',
+        "AUD",
+        "NZD"
