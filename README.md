@@ -5,7 +5,7 @@ Convert Currencies in One Click
 Install requirements from command 'pip install -r requirements.txt'
 And Enjoy Using it.
 
-# Major Currencies Include
+# Major Currencies Included
         "USD",
         "GBP",
         "INR",
