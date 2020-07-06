@@ -15,3 +15,5 @@ And Enjoy Using it.
         'SGD',
         "AUD",
         "NZD"
+
+*Ping me @ omkulkarni22@gmail.com for exe version*
