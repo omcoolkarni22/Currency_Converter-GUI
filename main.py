@@ -7,7 +7,7 @@ def run():
     from_ = variable_form.get()
     to_ = variable_to.get()
     try:
-        amo = int(value_ent.get())
+        amo = float(value_ent.get())
         c = CurrencyRates()
         # print(from_, to_, amo)
         convert = c.convert(from_, to_, amo)
