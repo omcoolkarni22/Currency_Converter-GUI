@@ -22,22 +22,22 @@ def main():
     root = Tk()
     root.geometry("500x300")
     root.title("Currency Converter")
-    root.configure(bg="black")
+    root.configure(bg="gray")
 
     label_from = Label(root, text="From", font=("Arial Bold", 15), height=1, width=10,
-                       justify="left", fg="white", bg="black")
+                       justify="left", fg="white", bg="gray")
     label_to = Label(root, text="To", font=("Arial Bold", 15), height=1, width=10,
-                     justify="left", fg="white", bg="black")
+                     justify="left", fg="white", bg="gray")
     value = Label(root, text="Amount", font=("Arial Bold", 15), height=1, width=10,
-                  justify="left", fg="white", bg="black")
+                  justify="left", fg="white", bg="gray")
     value_cl = Label(root, text="Converted", font=("Arial Bold", 15), height=1, width=10,
-                  justify="left", fg="white", bg="black")
+                  justify="left", fg="white", bg="gray")
 
     value_ent = Entry(root, font=("Arial Bold", 18))
-    value_c = Entry(root, font=("Arial Bold", 18))
+    value_c = Entry(root,font=("Arial Bold", 18))
 
     button = Button(root, text="Convert", command=run, height=1, width=15,
-                    font=("Arial Bold", 12), fg="white", bg="blue")
+                    font=("Arial Bold", 12), fg="white", bg="#383837")
     OPTIONS = [
         "USD",
         "GBP",
@@ -73,4 +73,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
